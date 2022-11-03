@@ -1,7 +1,5 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def add(a, b):
+    print(a + b)
 
 
 def print_hi(name):
@@ -12,5 +10,7 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
+    add(4, 5)
+    add(6, 7)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
