@@ -1,3 +1,6 @@
+from user_class import Registration
+
+
 def add(a, b):
     print(a + b)
 
@@ -12,5 +15,5 @@ if __name__ == '__main__':
     print_hi('PyCharm')
     add(4, 5)
     add(6, 7)
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    user1 = Registration("Сергей", "Гжегожевский", 89056677665, "test@gmail.com")
+    print(user1)
